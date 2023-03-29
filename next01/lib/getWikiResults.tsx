@@ -1,6 +1,7 @@
 export default async function getWikiResults(searchTerm: string) {
 
   const searchParams = new URLSearchParams({
+    // Parameters which are required for Wikipedia API
       action: 'query',
       generator: 'search',
       gsrsearch: searchTerm,
