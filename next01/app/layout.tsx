@@ -1,5 +1,6 @@
 import './globals.css'
 import Navbar from './components/Navbar'
+import Search from './components/Search'
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-slate-800">
         <Navbar />
+        <Search />
         {children}
       </body>
     </html>
