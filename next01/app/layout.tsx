@@ -16,7 +16,6 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-slate-800">
         <Navbar />
-        <Search />
         {children}
       </body>
     </html>
