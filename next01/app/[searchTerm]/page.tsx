@@ -19,7 +19,5 @@ export default async function SearchResults({params: {searchTerm}}: Props) {
       }
     </main>
   )
-  return (
-    <div>SearchResults</div>
-  )
+  return content
 }
